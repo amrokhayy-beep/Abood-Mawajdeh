@@ -1,0 +1,6 @@
+{
+  "name": "English Mastery & Learning Platform",
+  "description": "Real-time English learning, multiplayer speaking battles, AI tutor, and interactive classroom platform.",
+  "requestFramePermissions": ["camera", "microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

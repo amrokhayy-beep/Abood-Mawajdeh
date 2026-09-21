@@ -1,0 +1,48 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+  }
+
+  /* Support for Space Grotesk everywhere font-['Space_Grotesk'] or font-space is specified */
+  [class*="font-['Space_Grotesk']"],
+  [class*='font-["Space_Grotesk"]'],
+  .font-space-grotesk {
+    font-family: 'Space Grotesk', 'Plus Jakarta Sans', system-ui, sans-serif !important;
+  }
+}
+
+@layer components {
+  /* Dynamic Button sizing - 'XML-like' responsive behavior */
+  .btn-responsive {
+    @apply inline-flex items-center justify-center gap-1.5 font-bold transition-all duration-200 
+           cursor-pointer shadow-sm hover:scale-[1.02] active:scale-[0.98] rounded-xl whitespace-nowrap;
+    @apply px-3 py-1.5 text-[10px] sm:px-4 sm:py-2 sm:text-xs md:px-5 md:py-2.5 md:text-sm;
+  }
+
+  /* Dynamic Capsule/Badge sizing */
+  .capsule-responsive {
+    @apply inline-flex items-center justify-center font-semibold rounded-lg border whitespace-nowrap;
+    @apply px-1.5 py-0.5 text-[8px] sm:px-2 sm:py-1 sm:text-[10px] md:px-2.5 md:py-1 md:text-xs;
+  }
+
+  /* Chat Bubble Responsive Padding */
+  .chat-bubble-responsive {
+    @apply p-2.5 sm:p-3 md:p-4 rounded-2xl text-xs sm:text-sm;
+  }
+
+  /* Responsive Icons */
+  .icon-responsive {
+    @apply w-3.5 h-3.5 sm:w-4 sm:h-4 md:w-5 md:h-5;
+  }
+}
+
+/* Crisp rendering for avatars and uploaded photos */
+img {
+  image-rendering: auto;
+  image-rendering: -webkit-optimize-contrast;
+}

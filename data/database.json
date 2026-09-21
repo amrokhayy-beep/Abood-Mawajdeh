@@ -1,0 +1,78 @@
+{
+  "version": 1,
+  "updatedAt": "2026-09-21T14:19:00.397Z",
+  "users": {
+    "ahmed_admin123": {
+      "username": "ahmed_admin123",
+      "passwordHash": "admin123",
+      "createdAt": "2026-09-21T14:19:00.397Z"
+    },
+    "sabood": {
+      "username": "sabood",
+      "passwordHash": "aboodmawa",
+      "createdAt": "2026-09-21T14:20:31.133Z"
+    },
+    "test": {
+      "username": "test",
+      "passwordHash": "test123",
+      "createdAt": "2026-09-21T14:33:21.824Z"
+    },
+    "mohammed": {
+      "username": "mohammed",
+      "passwordHash": "aboodmawa",
+      "createdAt": "2026-09-21T15:41:32.966Z"
+    }
+  },
+  "profiles": {
+    "ahmed_admin123": {
+      "name": "Prof. Ahmed",
+      "age": 35,
+      "yearBorn": 1989,
+      "honor": 1000,
+      "level": 99,
+      "exp": 10000,
+      "completedAt": "2026-09-21T14:19:00.397Z",
+      "updatedAt": "2026-09-21T14:19:50.861Z",
+      "bio": "English Language Professor & Academic Coordinator",
+      "avatar": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?auto=format&fit=crop&w=400&h=400&q=80"
+    },
+    "sabood": {
+      "name": "Ahmed",
+      "age": 14,
+      "yearBorn": 2012,
+      "honor": 100,
+      "level": 1,
+      "exp": 1,
+      "completedAt": "2026-09-21T14:20:38.800Z",
+      "updatedAt": "2026-09-21T14:20:39.493Z"
+    },
+    "mohammed": {
+      "name": "Mohammed",
+      "age": 14,
+      "yearBorn": 2012,
+      "honor": 100,
+      "level": 1,
+      "exp": 1,
+      "completedAt": "2026-09-21T15:41:42.031Z",
+      "updatedAt": "2026-09-21T17:04:39.987Z",
+      "avatar": "https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=400&h=400&q=80"
+    }
+  },
+  "messages": [
+    {
+      "id": "msg-1790010269457-htad7",
+      "sender": "mohammed",
+      "senderName": "Mohammed",
+      "recipient": "sabood",
+      "text": "Hi",
+      "time": "08:04 م",
+      "createdAt": "2026-09-21T17:04:29.457Z",
+      "isStudent": true,
+      "senderAvatar": "default",
+      "type": "text"
+    }
+  ],
+  "groups": [],
+  "notifications": [],
+  "homeworks": []
+}
